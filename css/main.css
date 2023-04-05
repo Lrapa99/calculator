@@ -1,0 +1,79 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+/* reset styles */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: 'Inter', sans-serif;
+}
+
+main{ background: #1E1E1E; border-radius: 20px; color: white; width: 414px; margin: 0 auto; height: 896px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.result{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+}
+
+h1{
+font-weight: 400;
+font-size: 112px;
+line-height: 136px;
+}
+
+.calculator{
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  height: 500px;
+  display: flex;
+}
+
+.left{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn.gd{
+background: radial-gradient(213.48% 213.48% at 0% -32.02%, #FAFF00 0%, #FF00F5 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 150px;
+font-weight: 400;
+font-size: 62px;
+line-height: 75px;
+}
+
+.btn{ width: 90px; height: 90px; background: #333333; border: 3px solid #333333; box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22); border-radius: 150px; font-weight: 400; font-size: 42px; line-height: 51px; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.btn-cero{ width: 192px; height: 90px; background: #333333; border: 3px solid #333333; box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22); border-radius: 150px; font-weight: 400; font-size: 42px; line-height: 51px; display: flex; align-items: center; padding-left: 1rem; cursor: pointer; transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease;
+}
+
+.btn-cero:hover{ transform: scale(1.1); -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1);
+}
